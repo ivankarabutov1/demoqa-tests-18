@@ -8,8 +8,12 @@ repositories {
 
 dependencies {
     testImplementation (
-
+            'com.codeborne:selenide:6.18.0',
             "org.junit.jupiter:junit-jupiter:5.9.2",
+            'org.seleniumhq.selenium:selenium-http-jdk-client:4.10.0'
+
+
+
 
     )
 }
