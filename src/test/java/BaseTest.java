@@ -11,6 +11,7 @@ public class BaseTest {
         Configuration.browserSize="1920 x 1080";
         Configuration.baseUrl="https://demoqa.com";
         Configuration.pageLoadStrategy = "eager";
+        Configuration.holdBrowserOpen = true;
 
     }
 
