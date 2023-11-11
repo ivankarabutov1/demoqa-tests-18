@@ -12,12 +12,12 @@ public class SkipTests {
     @Test
     @Disabled
     void test1(){
-        assertTrue(true);
+        assertTrue(false);
     }
     @Test
-    @Disabled
+    @Disabled("some reason")
     void test2(){
-        assertTrue(true);
+        assertTrue(false);
     }
 
 
